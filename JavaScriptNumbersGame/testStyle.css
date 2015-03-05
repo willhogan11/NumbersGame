@@ -1,0 +1,32 @@
+body
+{
+	background-color: lightblue;
+}
+
+/* Header Alterations */
+h1
+{
+	color: navy;
+	margin-left: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 55px;
+}
+
+p
+{
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+
+/* This is the main div or divide in the centre of the screen */ 
+div
+{
+	border: 5px solid;
+	border-radius: 10px;
+	text-align: center;
+	width: 350px;
+	margin: auto;
+	position: relative;
+	padding: 20px;
+	background-color: #FFF;
+}
