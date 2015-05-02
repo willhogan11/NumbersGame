@@ -3,8 +3,8 @@ function reset()
 {
     compGuess = Math.ceil(Math.random() * 20);
     tries = 5;
-	userGuess = document.getElementById("num").value = "";
-	window.alert("New Game Started");
+    userGuess = document.getElementById("num").value = "";
+    window.alert("New Game Started");
 	
 } // End of reset() function
 
@@ -13,8 +13,7 @@ function reset()
 // Function to Check if Input is Valid
 function validateFunc()
 {
-	var	x;
-	
+	var x;
 	x = document.getElementById("num").value;
 	
 	if( isNaN(x) || x < 1 || x > 20 )
